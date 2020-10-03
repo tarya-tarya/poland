@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__background">
+          <div class="header__overlay">
+          <div class="header__navigation">
+          <img class="logo logo_place_header" src="images/logo.png" alt="logo">
+          <nav class="menu">
+            <ul class="menu__items">
+              <li class="menu__item"><a href="" class="menu__link">Guides</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Journey</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Hotels</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Travelers</a></li>
+              <li class="menu__item menu__search"><button class="menu__button"></button></li>
+            </ul>
+          </nav>
+          </div>
+          <div class="header__texts">
+            <h1 class="header__title">Fall in love<span class="header__title_color_red"> with Poland</span></h1>
+            <p class="header__subtitle">Best way to find your perfect place in Poland</p>
+            <button type="button" class="button header__button">Search your place</button>
+            <p class="header__subtitle header__subtitle_place_bottom">Popular places to discover</p>
+          </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="offers">
+          <img class="offers__image" src="./images/photo-one-dark.jpg">
+          <img class="offers__image" src="./images/zakopane.jpg">
+          <img class="offers__image" src="./images/sandomierz.jpg">
+          <img class="offers__image" src="./images/sopot.jpg">
+          <img class="offers__image" src="./images/photo-two-dark.jpg">
+        </section>
+        <section class="places">
+          <h2 class="section__title section__title_section_places">Where you want to go?</h2>
+          <input type="search" class="places__search" placeholder="Search place">
+          <div class="tags">
+            <div class="themes">
+              <div class="themes__item themes__item_type_selected">Journey</div>
+              <div class="themes__item themes__item_type_not-selected">Travels</div>
+              <div class="themes__item themes__item_type_not-selected">Guide</div>
+            </div>
+            <div class="cities">
+              <div class="cities__item">Mazury</div>
+              <div class="cities__item">Cracow</div>
+              <div class="cities__item">Zakopane</div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cards__item">
+              <img class="cards__image" src="./images/poznan.jpg">
+              <h3 class="cards__title">Poznan</h3>
+              <p class="cards__subtitle">Wielkopolskie</p>
+              <button class="button cards__button">View offers</button>
+            </div>
+            <div class="cards__item">
+              <img class="cards__image" src="./images/warsaw.jpg">
+              <h3 class="cards__title">Warsaw</h3>
+              <p class="cards__subtitle">Mazowieckie</p>
+              <button class="button cards__button">View offers</button>
+            </div>
+            <div class="cards__item">
+              <img class="cards__image" src="./images/wroclaw.jpg">
+              <h3 class="cards__title">Wroclaw</h3>
+              <p class="cards__subtitle">Dolnoslaskie</p>
+              <button class="button cards__button">View offers</button>
+            </div>
+            <div class="cards__item">
+              <img class="cards__image" src="./images/karpacz.jpg">
+              <h3 class="cards__title">Karpacz</h3>
+              <p class="cards__subtitle">Dolnoslaskie</p>
+              <button class="button cards__button">View offers</button>
+            </div>
+            <div class="cards__item">
+              <img class="cards__image" src="./images/dolina-olczyska.jpg">
+              <h3 class="cards__title">Dolina Olczyska</h3>
+              <p class="cards__subtitle">Malopolskie</p>
+              <button class="button cards__button">View offers</button>
+            </div>
+            <div class="cards__item">
+              <img class="cards__image" src="./images/kozy.jpg">
+              <h3 class="cards__title">Kozy</h3>
+              <p class="cards__subtitle">Slaskie</p>
+              <button class="button cards__button">View offers</button>
+            </div>
+          </div>
+        </section>
+        <section class="explore">
+          <h2 class="section__title section__title_section_explore">Explore city</h2>
+          <div class="content">
+            <div class="content__texts">
+              <h3 class="content__title">Sandomierz</h3>
+              <p class="content__text">Sandomierz is one of the oldest and historically most significant cities in Poland. 
+                Archeological finds around the city indicate that humans have inhabited the area since neolithic times. 
+                The city came into existence in the early Middle Ages, taking advantage of an 
+                excellent location at the junction of Vistula and San rivers, and on the path of important trade routes. </p>
+              <p class="content__text">The first known historical mention of the city comes from the early 12th-century, 
+                when the chronicler Gallus Anonymus ranked it together with Kraków and Wrocław as one of the main cities of Poland. 
+                The testament (ca 1115-1118) of Bolesław III Wrymouth, in which he divided Poland among his sons, 
+                designated Sandomierz as the capital of one of the resulting principalities, the Duchy of Sandomierz.</p>
+              <button type="button" class="button content__button">Check offers</button>
+            </div>
+            <div class="content__images">
+              <div class="content__border">
+                <img class="content__image" src="images/explore-img.jpg">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="enjoy">
+          <div class="enjoy__texts">
+            <h2 class="enjoy__title">Enjoy your journey</h2>
+            <button type="button" class="button enjoy__button">Sign up</button>
+            <p class="enjoy__subtitle">You can also sign up on our <a href="" class="enjoy__link">newsletter</a></p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <img class="logo footer__logo" src="images/logo.png" alt="logo">
+        <p class="footer__text">All rights reserved by symu.co</p>
+      </footer>
+    </div>
+  </body>
+</html>
